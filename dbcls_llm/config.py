@@ -8,9 +8,12 @@ MODELS = {
         {"class": "gpt", "model": "gpt-35-turbo", "version": "0301", "tenant": "dbcls", "region": "southcentralus"}
     ],
     "gpt-4o": [
+        {"class": "gpt", "model": "gpt-4o", "version": "2024-08-06", "tenant": "dbcls", "region": "eastus"},
+        {"class": "gpt", "model": "gpt-4o-mini", "version": "2024-07-18", "tenant": "dbcls", "region": "eastus"},
         {"class": "gpt", "model": "gpt-4o", "version": "2024-05-13", "tenant": "dbcls", "region": "northcentralus"}
     ],
     "gpt-4": [
+        {"class": "gpt", "model": "gpt-4", "version": "turbo-2024-04-19", "tenant": "dbcls", "region": "japaneast"},
         {"class": "gpt", "model": "gpt-4", "version": "0125-Preview", "tenant": "dbcls", "region": "northcentralus"},
         {"class": "gpt", "model": "gpt-4", "version": "1106-Preview", "tenant": "dbcls", "region": "australiaeast"},
         {"class": "gpt", "model": "gpt-4-0613", "version": "0613", "tenant": "dbcls", "region": "australiaeast"}
@@ -31,12 +34,16 @@ MODELS = {
         {"class": "gemini", "model": "1.0-pro"}
     ],
     "llama": [
+        {"class": "llama", "model": "llama3-1-405b"},
+        {"class": "llama", "model": "llama3-1-70b"},
+        {"class": "llama", "model": "llama3-1-8b"},
         {"class": "llama", "model": "llama3-70b"},
         {"class": "llama", "model": "llama3-8b"},
         {"class": "llama", "model": "llama2-70b"},
         {"class": "llama", "model": "llama2-13b"}
     ],
     "mistral": [
+        {"class": "mistral", "model": "mistral-large2"},
         {"class": "mistral", "model": "mistral-7b"},
         {"class": "mistral", "model": "mixtral-8x7b"},
         {"class": "mistral", "model": "mistral-large"}
